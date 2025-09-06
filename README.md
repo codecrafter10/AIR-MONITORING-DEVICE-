@@ -30,8 +30,6 @@ Air-Monitoring-Website/
 
 Clone the repository:
 
-git clone https://github.com/yourusername/Air-Monitoring-Website.git
-
 
 Open the folder.
 
@@ -56,3 +54,4 @@ Zaid Ali
 🌐 GitHub: codecrafter10
 
 ✨ If you like this project, don’t forget to ⭐ star the repo!
+
