@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Monitor • India</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌍 Air Monitor – India</h1>
+    <p>Real-time demo of Indian city air quality</p>
+  </header>
+
+  <main>
+    <div class="search">
+      <input id="searchInput" type="text" placeholder="Search city (e.g., Delhi)">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="citiesList" class="cities"></div>
+
+    <section class="panel">
+      <h2 id="activeCity">--</h2>
+      <p id="activeTime">--</p>
+      
+      <div class="aqi-display">
+        <h3>AQI: <span id="aqiValue">--</span></h3>
+        <div id="aqiBar" class="aqi-bar"></div>
+        <p>Category: <span id="aqiCategory">--</span></p>
+      </div>
+
+      <div class="details">
+        <p>PM2.5: <span id="pm25">--</span></p>
+        <p>PM10: <span id="pm10">--</span></p>
+        <p>Humidity: <span id="hum">--</span></p>
+        <p>Temperature: <span id="temp">--</span></p>
+        <p>CO₂: <span id="co2">--</span></p>
+        <p>Ozone (O₃): <span id="ozone">--</span></p>
+        <p>Wind Speed: <span id="wind">--</span></p>
+      </div>
+    </section>
+
+    <section class="chart">
+      <h2>📊 City Comparison (AQI)</h2>
+      <canvas id="cityChart" height="200"></canvas>
+    </section>
+
+    <button id="simulateBtn">Toggle Live Simulation</button>
+  </main>
+
+  <!-- Chart.js for graph -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

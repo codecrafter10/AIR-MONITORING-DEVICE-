@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f1c2e;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.search button {
+  padding: 10px 15px;
+  background: #1dd3b0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.city {
+  background: #1a2b4c;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.city:hover {
+  background: #26406d;
+  transform: scale(1.05);
+}
+
+.panel {
+  background: #1a2b4c;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.aqi-display {
+  margin-bottom: 15px;
+}
+
+.aqi-bar {
+  height: 15px;
+  width: 100%;
+  border-radius: 6px;
+  margin: 8px 0;
+  background: linear-gradient(to right, green, yellow, orange, red, purple, maroon);
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+button {
+  background: #5b8cff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.chart {
+  background: #1a2b4c;
+  padding: 20px;
+  border-radius: 8px;
+}
